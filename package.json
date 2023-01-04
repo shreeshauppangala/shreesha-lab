@@ -21,15 +21,16 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "typescript": "tsc --project tsconfig.json --noEmit",
-    "lint": "eslint --fix --ext .ts,.tsx ./src",
-    "prettier": "prettier src -check",
+    "lint": "eslint --fix",
+     "pretty": "prettier --write .",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "npm run lint"
-    ]
-  },
+ "lint-staged": {
+  "**/*.{ts,tsx,js,jsx}": [
+    "npm run lint",
+    "prettier --write"
+  ]
+ },
   "browserslist": {
     "production": [
       ">0.2%",
