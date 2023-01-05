@@ -6,5 +6,8 @@
   "trailingComma": "all",
   "semi": true,
   "endOfLine": "crlf",
-  "arrowParens": "always"
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+   "useTabs": false
 }

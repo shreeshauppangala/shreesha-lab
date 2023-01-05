@@ -1,9 +1,8 @@
 import React from 'react'
+import { Box } from '@mui/material';
 
-const Lab = () => {
-  return (
-    <div>Lab</div>
-  )
-}
+const Lab = () => (
+  <Box>Lab</Box>
+)
 
 export default Lab
